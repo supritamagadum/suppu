@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+.logo{
+    font-size: 60px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.image{
+     width: 20px;
+     height: 50px;
+
+}
+.container{
+    display: flex;
+    background-color: blue;
+    
+}
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.cc{
+    margin: 30px;
+
+}
+.row1{
+    display: flex;
+    margin: 1%;
+
+}
+.product{
+    text-align: center;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.product button{
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.row2{
+    display: flex;
+    margin: 1%;
+}
+.cart-item div{
+    height: 8%;
+    width: 20%;
+    justify-content: space-around;
+}
+.cart-item div img{
+    height: 200px;
+    width: 200px;
+}
+.cart-item div button{
+    width: 150px;
+    margin-top: 30px;
+    
+}
